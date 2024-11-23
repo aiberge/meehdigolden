@@ -1,4 +1,3 @@
-import React from 'react';
 import { Shield, Clock, Award } from 'lucide-react';
 
 export default function About() {
@@ -45,7 +44,7 @@ export default function About() {
         <div className="glass-card rounded-2xl p-8 max-w-3xl mx-auto">
           <div className="text-center">
             <p className="text-zinc-300 mb-6">
-              Depuis notre création, Golden Mehdi Car s'est engagé à fournir des services de location 
+              Depuis notre création, <span className="text-[#FFD700] font-bold">Golden Mehdi Car</span> s'est engagé à fournir des services de location 
               de voitures de première qualité à Kénitra. Notre passion pour l'excellence et notre 
               engagement envers la satisfaction client nous ont permis de devenir un leader 
               dans la région.
